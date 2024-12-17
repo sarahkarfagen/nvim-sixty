@@ -1,0 +1,49 @@
+# Lua bytecode
+*.luac
+
+# Lua language server and package manager files
+.sumneko-lua/
+.lua-dev/
+.vscode/
+
+# Temporary files
+*.bak
+*.swp
+*.tmp
+*.temp
+*.DS_Store
+
+# Neovim backup, swap, undo, and session files
+*.sw?
+*.swo
+*.swn
+*.swr
+*.swp
+*.swx
+*.un~
+*.un~
+session.vim
+
+# Output from builds or dependencies
+dist/
+build/
+*.out
+*.log
+
+# Neovim plugins' lazy.nvim and packer.nvim related
+site/
+plugin/packer_compiled.lua
+lazy-lock.json
+node_modules/
+
+# Cache directories
+.cache/
+.logs/
+.venv/
+.env/
+__pycache__/
+
+# Operating system files
+Thumbs.db
+desktop.ini
+.DS_Store
